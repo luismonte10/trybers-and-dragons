@@ -20,7 +20,7 @@ abstract class Archetype {
   }
 
   get cost(): number {
-    return this._special;
+    return this._cost;
   }
 
   static createdArchetypeInstances(): number {
